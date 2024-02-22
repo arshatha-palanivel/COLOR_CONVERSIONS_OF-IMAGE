@@ -25,15 +25,15 @@ Use imwrite(filename, image) to write the image.
 ### Step5:
 End the program and close the output image windows.
 ### Step6:
-Convert BGR and RGB to HSV and GRAY
+Convert BGR and RGB to HSV and GRAY.
 ### Step7:
-Convert HSV to RGB and BGR
+Convert HSV to RGB and BGR.
 ### Step8:
-Convert RGB and BGR to YCrCb
+Convert RGB and BGR to YCrCb.
 ### Step9:
-Split and Merge RGB Image
+Split and Merge RGB Image.
 ### Step10:
-Split and merge HSV Image
+Split and merge HSV Image.
 
 ##### Program:
 ### Developed By: ARSHATHA P
@@ -74,7 +74,8 @@ Split and merge HSV Image
     print(image.shape)
 ```
 
-![Uploading DIP 03.png…]()
+![DIP 03](https://github.com/arshatha-palanivel/COLOR_CONVERSIONS_OF-IMAGE/assets/118682484/848a4d07-8197-4d68-834f-4be8902c2a90)
+
 
 
 ### iv)Access rows and columns

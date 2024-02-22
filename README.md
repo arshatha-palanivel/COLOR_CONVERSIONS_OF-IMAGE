@@ -51,6 +51,7 @@ Split and merge HSV Image
     cv2.waitKey(0)
     cv2.destroyAllWindows()
 
+   
     ![DIP 01](https://github.com/arshatha-palanivel/COLOR_CONVERSIONS_OF-IMAGE/assets/118682484/e7440fbd-f839-4133-9874-6efc09684d16)
 
 
@@ -60,6 +61,7 @@ Split and merge HSV Image
     image=cv2.imread('dip.jpg',0)
     cv2.imwrite('demos.jpg',image)
 
+    
     ![DIP 02](https://github.com/arshatha-palanivel/COLOR_CONVERSIONS_OF-IMAGE/assets/118682484/f39d9f02-f71a-4509-b8ed-a13c397cf06a)
 
 
@@ -69,6 +71,7 @@ Split and merge HSV Image
     image=cv2.imread('dip.jpg',1)
     print(image.shape)
 
+   
     ![DIP 03](https://github.com/arshatha-palanivel/COLOR_CONVERSIONS_OF-IMAGE/assets/118682484/5dc8d5df-9a68-48fb-b180-5de39e4110fc)
 
 

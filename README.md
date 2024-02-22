@@ -43,7 +43,7 @@ Split and merge HSV Image
 ## Output:
 
 ### i) Read and display the image
-
+```
     import cv2
     image=cv2.imread('dip.jpg',1)
     image=cv2.resize(image,(300,300))
@@ -51,33 +51,34 @@ Split and merge HSV Image
     cv2.waitKey(0)
     cv2.destroyAllWindows()
 
-   
-    ![DIP 01](https://github.com/arshatha-palanivel/COLOR_CONVERSIONS_OF-IMAGE/assets/118682484/e7440fbd-f839-4133-9874-6efc09684d16)
+  ```
+![DIP 01](https://github.com/arshatha-palanivel/COLOR_CONVERSIONS_OF-IMAGE/assets/118682484/30fe1927-b23d-4030-bb81-7223f814d8a9)
+
 
 
 ### ii)Write the image
-
+```
     import cv2
     image=cv2.imread('dip.jpg',0)
     cv2.imwrite('demos.jpg',image)
 
-    
-    ![DIP 02](https://github.com/arshatha-palanivel/COLOR_CONVERSIONS_OF-IMAGE/assets/118682484/f39d9f02-f71a-4509-b8ed-a13c397cf06a)
+   ``` 
+![DIP 02](https://github.com/arshatha-palanivel/COLOR_CONVERSIONS_OF-IMAGE/assets/118682484/161b1a64-8764-40b2-816b-94ff2a75f30d)
+
 
 
 ### iii)Shape of the Image
-
+```
     import cv2
     image=cv2.imread('dip.jpg',1)
     print(image.shape)
+```
 
-   
-    ![DIP 03](https://github.com/arshatha-palanivel/COLOR_CONVERSIONS_OF-IMAGE/assets/118682484/5dc8d5df-9a68-48fb-b180-5de39e4110fc)
-
+![Uploading DIP 03.png…]()
 
 
 ### iv)Access rows and columns
-
+```
     import random
     import cv2
     image=cv2.imread('dip.jpg',1)
@@ -90,14 +91,14 @@ Split and merge HSV Image
     cv2.imshow('part image',image)
     cv2.waitKey(0)
     cv2.destroyAllWindows()
-
+```
    ![DIP 04](https://github.com/arshatha-palanivel/COLOR_CONVERSIONS_OF-IMAGE/assets/118682484/3b8ac2ff-ab9d-4b03-b090-4302530390af)
 
     
 
 
 ### v)Cut and paste portion of image
-
+```
  import cv2
   image=cv2.imread('dip.jpg',1)
   image=cv2.resize(image,(300,300))
@@ -106,12 +107,12 @@ Split and merge HSV Image
   cv2.imshow('image1',image)
   cv2.waitKey(0)
   cv2.destroyAllWindows()
-
+```
   ![DIP 05](https://github.com/arshatha-palanivel/COLOR_CONVERSIONS_OF-IMAGE/assets/118682484/3a73b3fb-f389-4923-b25a-8315d0e480d5)
 
 
 ### vi) BGR and RGB to HSV and GRAY
-
+```
 import cv2
 img = cv2.imread('dip.jpg',1)
 img = cv2.resize(img,(200,200))
@@ -131,12 +132,12 @@ cv2.imshow('RGB2GRAY',gray2)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-
+```
 ![DIP 06](https://github.com/arshatha-palanivel/COLOR_CONVERSIONS_OF-IMAGE/assets/118682484/946dc39b-c290-4a47-b6c6-4fce07a700b1)
 
 
 ### vii) HSV to RGB and BGR
-
+```
 import cv2
 img = cv2.imread('dip.jpg')
 img = cv2.resize(img,(200,200))
@@ -152,12 +153,12 @@ cv2.imshow('HSV2RGB',BGR)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-
+```
 ![DIP 07](https://github.com/arshatha-palanivel/COLOR_CONVERSIONS_OF-IMAGE/assets/118682484/693febcb-d3e8-4e88-802d-a78b6dfd54ec)
 
 
 ### viii) RGB and BGR to YCrCb
-
+```
 import cv2
 img = cv2.imread('dip.jpg')
 img = cv2.resize(img,(200,200))
@@ -171,13 +172,13 @@ cv2.imshow('BGR-2-YCrCb',YCrCb2)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-
+```
 ![DIP 08](https://github.com/arshatha-palanivel/COLOR_CONVERSIONS_OF-IMAGE/assets/118682484/946e10d4-d772-4ffc-8299-bb9f6ca9c9d4)
 
 
 
 ### ix) Split and merge RGB Image
-
+```
 import cv2
 img = cv2.imread('dip.jpg',1)
 img = cv2.resize(img,(150,150))
@@ -195,13 +196,13 @@ cv2.imshow('Merged RGB image',merged)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-
+```
 ![DIP 09](https://github.com/arshatha-palanivel/COLOR_CONVERSIONS_OF-IMAGE/assets/118682484/e0856887-ef80-4d82-807e-120bebd236de)
 
 
 
 ### x) Split and merge HSV Image
-
+```
 import cv2
 img = cv2.imread("dip.jpg",1)
 img = cv2.resize(img,(200,200))
@@ -218,7 +219,7 @@ cv2.imshow('Merged',merged)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-
+```
 ![DIP 10](https://github.com/arshatha-palanivel/COLOR_CONVERSIONS_OF-IMAGE/assets/118682484/6a0cdba9-9fe5-4d76-875a-708ab593231c)
 
 
